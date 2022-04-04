@@ -1,0 +1,20 @@
+// Utilities
+
+@import "utilities/fonts";
+@import "utilities/variables";
+@import "utilities/mixins";
+
+// Components
+
+@import "components/form.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: .2s;
+}
+
+body {
+  background-color: $bg-gray
+}
